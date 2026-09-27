@@ -1,0 +1,7 @@
+interface:
+  display_name: "課文繪本化，極簡手繪黑白線條"
+  short_description: "把課文轉成源於文本的極簡黑白線條手繪繪本與故事理解頁面"
+  default_prompt: "Use $textbook-picturebook-minimal-bw-line to turn a supplied article into a source-faithful minimalist black-line picturebook."
+
+policy:
+  allow_implicit_invocation: true
