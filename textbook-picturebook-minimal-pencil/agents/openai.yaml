@@ -1,0 +1,7 @@
+interface:
+  display_name: "課文繪本化，極簡手繪色鉛筆風"
+  short_description: "把課文轉成黑線、純白背景、少量色鉛筆淡彩的源文繪本與理解學習單"
+  default_prompt: "Use $textbook-picturebook-minimal-pencil to turn supplied reading material into a source-faithful minimalist black-line picturebook with sparse colored-pencil accents and clear comprehension structure."
+
+policy:
+  allow_implicit_invocation: true
