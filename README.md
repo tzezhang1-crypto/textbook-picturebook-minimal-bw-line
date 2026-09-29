@@ -27,5 +27,5 @@
 
 ## 檔案
 
-- `SKILL.md)：完整使用規範。
-- `textbook-picturebook-minimal-pencil/`：淡色鉛筆風格的相關變體。
+- SKILL.md：完整使用規範。
+- textbook-picturebook-minimal-pencil/：淡色鉛筆風格的相關變體。
