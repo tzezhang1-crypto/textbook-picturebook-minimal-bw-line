@@ -1,80 +1,86 @@
 ---
 name: textbook-picturebook-minimal-bw-line
-description: "Turn a supplied article or lesson text into a source-faithful picturebook sequence using minimal black hand-drawn line art on a pure white background."
+description: "將提供的文章、課文或 DOCX 轉成忠於原文的繪本式內容，使用純白背景與極簡黑色手繪線條。"
 ---
 
 # 課文繪本化，極簡手繪黑白線條
 
-Use this skill when a user wants a supplied article, lesson text, or DOCX turned into a picturebook-like visual sequence. The supplied source is the content authority; the skill improves structure and visual clarity without inventing facts.
+當使用者希望將文章、課文或 DOCX 轉成繪本式視覺內容時使用本 Skill。原始資料是內容唯一依據；本 Skill 只改善結構與視覺清晰度，不自行創造事實。
 
-## Source discipline
+## 原文使用原則
 
-- Read the complete supplied source before outlining. Treat the supplied article/DOCX as the only authority for events, people, objects, sequence, quotations, and named details.
-- Separate what the text explicitly states from an interpretation. Do not add background facts, motives, dialogue, moral judgments, or events that the source does not support.
-- Preserve the source language unless the user requests another language. For Traditional Chinese, keep exact characters, punctuation, and paragraph numbering when they carry meaning.
-- If a name, paragraph boundary, number, or core event is ambiguous, ask before production.
+- 規劃前必須完整閱讀原文。文章或 DOCX 是人物、事件、物件、順序、引文與名稱細節的唯一依據。
+- 清楚區分原文明說的內容與解讀，不得加入原文沒有支持的背景資料、動機、對話、道德判斷或事件。
+- 除非使用者要求其他語言，否則保留原文語言；繁體中文要保留具有意義的字形、標點與段落編號。
+- 如果人物名稱、段落界線、數字或核心事件不清楚，製作前先確認。
 
-## Article-understanding logic
+## 課文理解流程
 
-Build understanding in this order:
+依照以下順序建立理解：
 
-1. Read the whole text once for its overall arc.
-2. Divide it by the source's numbered paragraphs or natural event units.
-3. For each unit, record the actor, action, need or problem, object exchanged or changed, consequence, and any repeated wording.
-4. Track change across units: who returns, what is requested, what is given, what is lost, and how the ending echoes the beginning.
-5. Compress the arc into a story map using only source-grounded nouns and actions.
-6. Write one short paragraph summary per unit. Keep the summary faithful, concrete, and free of unsupported explanations.
-7. Derive the overall story summary from the sequence and ending. Derive the theme from repeated relationships, choices, and changes; phrase it as an open reading of the text rather than a compulsory moral.
+1. 先完整閱讀全文，掌握整體故事發展。
+2. 依原文編號段落或自然事件單位分段。
+3. 為每個單位記錄人物、行動、需求或問題、交換或改變的物件、結果，以及重複出現的語句。
+4. 追蹤各單位的變化：誰回來、要求什麼、得到什麼、失去什麼，以及結尾如何呼應開頭。
+5. 只使用原文支持的名詞與動作，把故事濃縮成故事地圖。
+6. 為每個單位寫一段簡短大意，保持忠實、具體，不加入沒有根據的解釋。
+7. 從事件順序與結尾歸納整體摘要；從反覆出現的關係、選擇與變化整理主旨，並以開放式解讀呈現，不強加唯一的道德答案。
 
-The visual sequence should make the article's cause, change, repetition, and ending visible. Do not let decoration replace comprehension.
+視覺順序應呈現課文中的因果、變化、重複與結尾，不可讓裝飾取代理解。
 
-## Recommended picturebook structure
+## 建議的繪本結構
 
-Unless the user specifies another structure, use:
+除非使用者指定其他結構，否則使用：
 
-1. Cover.
-2. Story-map page showing the whole arc.
-3. One page for each source paragraph or event unit, in order.
-4. One page for overall story summary and theme.
-5. Back cover.
+1. 封面。
+2. 呈現整體故事發展的故事地圖頁。
+3. 依順序為每個原文段落或事件單位安排一頁。
+4. 故事總結與主旨頁。
+5. 封底。
 
-For `n` source units this is normally `n + 4` pages. Lock the exact count before visual production. Do not add worksheets, teaching questions, or extra sections unless requested.
+若原文有 `n` 個單位，通常是 `n + 4` 頁。視覺製作前先鎖定確切頁數。除非使用者要求，不要自行加入學習單、教學問題或其他段落。
 
-Every page in the outline must state its role, one claim, exact visible text, source status, visual elements, layout, and style rules. Freeze visible text after outline approval.
+大綱中的每一頁都必須列出頁面角色、一項主張、確切可見文字、原文依據狀態、視覺元素、版面與風格規則。大綱確認後，鎖定可見文字。
 
-## Locked visual language
+## 固定視覺語言
 
-- Pure white background: `#FFFFFF`.
-- Black hand-drawn line art only: `#111111`; use no color, watercolor, colored pencil, beige paper, paper grain, gray fill, gradients, or shading.
-- Use bold outer contours, basic shapes, and only the few interior lines needed to identify the action or object.
-- Keep 2–4 core visual elements per page. Remove realistic bark, dense foliage, detailed anatomy, decorative patterns, and stock imagery.
-- Keep recurring characters, plants, and objects recognizable across pages. Show change by simplifying or removing the same object's parts, not by changing its identity.
-- Use white space as part of the storytelling. Keep text in clear quiet areas and never cover it with line art.
-- The cover and back cover should be quieter than event pages. The story-map may contain more nodes but must remain a simple line path.
+- 純白背景：`#FFFFFF`。
+- 只使用黑色手繪線條：`#111111`；不可使用彩色、水彩、色鉛筆、米色紙張、紙張紋理、灰色填色、漸層或陰影。
+- 使用較粗的外輪廓、基本形狀，以及辨識動作或物件所需的少量內部線條。
+- 每頁維持 2～4 個核心視覺元素，刪除寫實樹皮、密集葉叢、過度細節的人體、裝飾圖樣與素材庫圖片。
+- 重複出現的人物、植物與物件要保持可辨識；要表現變化時，應簡化或移除同一物件的部分，而不是任意改變其身分。
+- 把留白當成敘事的一部分，文字要放在清楚安靜的區域，線稿不可壓住文字。
+- 封面與封底應比事件頁簡潔；故事地圖可以有較多節點，但仍要保持簡單清楚的路徑。
 
-## Text and page production
+## 字體與線條粗細層次
 
-- Render only approved text. A page normally uses one title and one short summary; the story map and summary/theme page may use their approved labels and short blocks.
-- Prefer the native image-generation capability for one complete page at a time. Do not use stock images, contact sheets, unrelated characters, watermarks, or extra generated words.
-- Keep the final page ratio at 16:9 and normalize approved images to 1920×1080 before PDF assembly.
-- Keep the source-faithful outline, style profile, manifest, selected page images, prompts, PDF, and QA report together in the project folder.
+- 頁面標題與內文應使用不同字體或明顯不同的字體處理方式做區分；標題要醒目，內文要舒適好讀。
+- 整體文字排版應在版面允許範圍內最大化，使用最大的實用字級、行距與文字區塊；不可裁切、擁擠、壓住插圖，也避免不必要的留白。
+- 繪畫時要有意識地區分線條粗細：主要輪廓使用較粗線，重要結構使用中等線條，次要內部細節使用較細線條；全書保持一致，讓畫面美觀而不厚重。
 
-## Gates and QA
+## 文字與頁面製作
 
-Before batch generation, obtain approval for the brief, exact-count outline, text, locked black-and-white style, and one representative sample. If the global style changes, create a new style-profile version and a new sample; preserve the previous version.
+- 只呈現已確認的文字。一般頁面使用一個標題與一段簡短大意；故事地圖與總結／主旨頁可使用已確認的標籤與短文。
+- 優先使用原生圖片生成能力，一次製作完整的一頁。不可使用素材庫圖片、拼貼縮圖、無關人物、水印或額外生成文字。
+- 最終頁面比例維持 16:9，組成 PDF 前將圖片統一為 1920×1080。
+- 將忠於原文的大綱、樣式設定、manifest、選定頁面圖片、提示詞、PDF 與 QA 報告放在同一個專案資料夾。
 
-Before delivery, verify:
+## 製作關卡與品質檢查
 
-- the outline, manifest, selected-image count, and PDF page count are identical;
-- every page is 16:9 and the final PDF is 1920×1080 image content;
-- every visible word matches the approved text and is legible;
-- the page order follows the article;
-- the same characters and key objects remain consistent;
-- the background is pure white and the drawing is black line art only;
-- no page contains invented facts, extra captions, watermarks, or unrelated decoration.
+批次生成前，先確認製作簡報、確切頁數大綱、文字、固定黑白風格，以及一張代表性樣本。如果整體風格改變，建立新的樣式設定版本與新樣本，並保留前一版本。
 
-When a page fails, regenerate only that page. When the source or outline changes, re-approve the affected text before regenerating visuals.
+交付前確認：
 
-## Boundaries
+- 大綱、manifest、選定圖片數量與 PDF 頁數一致。
+- 每頁都是 16:9，最終 PDF 的影像內容為 1920×1080。
+- 每個可見文字都符合已確認文字，且清楚可讀。
+- 頁面順序符合課文。
+- 相同人物與關鍵物件前後一致。
+- 背景純白，線稿只使用黑色。
+- 沒有虛構事實、額外說明、水印或無關裝飾。
 
-Do not invoke this style for photorealistic, full-color, watercolor, colored-pencil, branded, or decorative poster work. Do not turn a source-free topic into asserted story facts; request source material or mark unresolved claims for confirmation.
+如果某一頁不合格，只重新製作該頁。如果原文或大綱改變，重新生成視覺內容前，先重新確認受影響的文字。
+
+## 使用界線
+
+不要將本風格用於寫實照片、全彩、水彩、色鉛筆、品牌設計或裝飾性海報。沒有原始資料時，不要把無來源的主題自行寫成確定的故事事實；應要求提供原始資料，或標示尚待確認的內容。
